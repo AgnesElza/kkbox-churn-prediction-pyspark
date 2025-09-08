@@ -23,7 +23,8 @@ Source: **KKBox Churn Prediction Challenge (Kaggle)**
 Key tables used:
 - `user_logs.csv` – daily listening activity (play counts, unique songs, session data).  
 - `transactions.csv` – subscription payments, renewals, cancellations.  
-- `train.csv` – churn labels (whether the user churned or not).  
+- `train.csv` – churn labels (whether the user churned or not).
+- `members.csv` – Demographics (gender, registration date, etc.).
 
 ---
 
