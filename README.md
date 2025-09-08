@@ -10,10 +10,9 @@ The goal is to show how churn prediction can be scaled beyond pandas workflows a
 ## Project Workflow
 1. **Data Processing (PySpark)** – Load millions of log entries and aggregate user activity at scale.  
 2. **Feature Engineering** – Derive engagement momentum, unique songs, active days, and subscription tenure using **Spark SQL + window functions**.  
-3. **Exploratory Analysis** – Distribution checks and churn correlations on Spark DataFrames.  
-4. **Modeling (Spark MLlib)** – Train Logistic Regression.  
-5. **Evaluation** – Compare models with AUROC, AUPRC, and Lift@K (business-focused metric).  
-6. **Insights** – Identify top churn drivers and interpret results for retention strategy.  
+3. **Modeling (Spark MLlib)** – Train Logistic Regression.  
+4. **Evaluation** – Compare models with AUROC, AUPRC, and Lift@K (business-focused metric).  
+5. **Insights** – Identify top churn drivers and interpret results for retention strategy.  
 
 ---
 
